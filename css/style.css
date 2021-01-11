@@ -1,0 +1,60 @@
+#all-wraper {
+  display: grid;
+  width: 980px;
+  grid-template-columns: 650px 320px;
+  padding: 10px 10px;
+  margin: auto;
+  padding: auto;
+}
+
+.part2 {
+  background-color: rgb(28, 120, 148);
+  padding-left: 20px;
+  color: white;
+}
+
+.learnMore-link-three a::after {
+  font-family: "FontAwesome";
+  padding-left: 10px;
+  content: "\f105";
+}
+img {
+  border-radius: 25%;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-left: 35px;
+}
+h1 {
+  color: rgb(28, 120, 148);
+}
+span {
+  font-size: 32px;
+}
+.contact {
+  margin-top: 150px;
+}
+.both {
+  display: flex;
+  justify-content: space-between;
+}
+.part1 {
+  margin-right: 20px;
+}
+.edu {
+  font-size: 20px;
+  color: rgba(128, 128, 128, 0.979);
+}
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.skill {
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: black;
+}
